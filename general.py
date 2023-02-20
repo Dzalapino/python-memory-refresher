@@ -42,3 +42,23 @@ while number < 5:
     print(number)
 else:
     print("While loop ended")
+
+# functions
+def greet(name, age = -1):
+    print(f"Hello {name} how are you? I know your age: {age}")
+
+greet("Andrzej")
+greet("Jendrzej", 45)
+
+def is_adult(age):
+    return age >= 18
+
+print("is adult?", is_adult(18))
+print("is adult?", is_adult(12))
+print("is adult?", is_adult(1))
+print("is adult?", is_adult(100))
+
+# import
+
+import math
+print(math.cos(2.22))
